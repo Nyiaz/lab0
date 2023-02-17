@@ -1,0 +1,70 @@
+#mainmenu {
+    float: left;
+}
+#settings a img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+#mainmenu ul {
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+}
+#mainmenu ul li {
+    position: relative;
+    float: left;
+}
+#mainmenu ul li ul, #mainmenu ul li ul li {
+    width: 130px;
+    color: red;
+
+}
+#mainmenu li ul {
+    position: absolute;
+    left: 0;
+    top: 29px;
+    display: none;
+    float: left;
+}
+#mainmenu li {
+    width: 100px;
+    
+}
+#mainmenu ul li a {
+    color: navy;
+    width: 80px;
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center;
+    background: Gold;
+    display: block;
+}
+#mainmenu li ul li a {
+    padding: 5px 0 3px 10px;
+    text-align: left;
+    font-size: 12px;
+    width: 80px;
+}
+#mainmenu li #submenu_1 li a {
+    background: olive;
+    color: aqua;
+}
+#mainmenu li #submenu_2 li a {
+    background: Navy;
+    color: Navy;
+}
+#mainmenu li ul li a:hover {
+    background: #0ffff0;
+    color: blue;
+}
+* html #mainmenu ul li {
+    height: 1%;
+}
+* html #mainmenu ul li a{
+    height: 1%;
+}
+#mainmenu li:hover ul,
+#mainmenu li.over ul {
+    display: block;
+}
